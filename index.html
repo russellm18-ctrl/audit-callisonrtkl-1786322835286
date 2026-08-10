@@ -8,12 +8,12 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-MD2MR2Q6XM', {
-    'page_title': '{{COMPANY_NAME}} Audit'
+    'page_title': 'CallisonRTKL Audit'
   });
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{COMPANY_NAME}} — Visual Audit</title>
+  <title>CallisonRTKL — Visual Audit</title>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -231,14 +231,14 @@
 
   <section class="hero">
     <p class="hero-eyebrow">// Visual Intelligence Report</p>
-    <h1 class="hero-company">{{COMPANY_NAME}}</h1>
+    <h1 class="hero-company">CallisonRTKL</h1>
     <p class="hero-sub">Prepared by Russell Moore &nbsp;·&nbsp; <span id="audit-date"></span></p>
   </section>
 
   <section class="findings">
     <p class="section-label">// Findings</p>
     <div class="audit-block">
-      {{AUDIT_RESULTS}}
+      ## Atmospheric Reality Gap<br><br>The scan was run against architizer.com, not callisonrtkl.com — meaning the verified evidence covers Architizer's homepage infrastructure, not CallisonRTKL's own domain. That distinction matters for what follows, because the forensic finding is severe regardless: the scanner returned **0 content images** on the homepage. No hero image. No project photography. No evidence of built work at the entry point of a platform that explicitly promises "inspiration and tools for architects."<br><br>The page title reads "Architizer: Inspiration and Tools for Architects." The copy promotes editorial features like "The A+List: The 225 Best Architecture and Design Firms in the World Right Now." The brand contract with every firm listed on that platform — CallisonRTKL included — is that your work will appear in a credible, visually authoritative context. A homepage that renders zero content images to a scraper is a homepage that may be rendering zero content images to a significant slice of real buyers: crawlers, screen readers, corporate IT environments with JavaScript disabled, and preview panes in email and Slack where link unfurls pull raw HTML. The trust cost is that CallisonRTKL's association with this platform carries ambient visual authority only when the page fully loads — and the scan has no confirmation it does.<br><br>## Visual Narrative Coherence<br><br>The single broken link — `https://architecture-jobs.architizer.com` returning a **403** — is a jobs subdomain. For a global firm like CallisonRTKL, talent acquisition is a brand function, not an HR footnote. Prospective hires who follow that path from Architizer land on a dead response, not a redirect, not a soft 404 with alternatives — a hard refusal. That signals to a design candidate comparing employers that this ecosystem cannot maintain its own infrastructure. The fracture is small in surface area and large in timing: it hits the exact moment a buyer or recruit is acting on intent.<br><br>The 25-link homepage audit produced one broken link out of 25 checked — a 4% failure rate at the entry point of a platform positioning itself as the authoritative directory for global architecture firms. Architizer is CallisonRTKL's third-party credibility proxy. When the proxy's own navigation fails, the credibility transfers in the wrong direction.<br><br>## Metadata and Conversion Gaps<br><br>The og:image tag is present, which means social shares and link previews will render an image — that is the one infrastructure item working correctly. Everything else in the metadata is optimized for Architizer's own brand, not for any firm listed on it.<br><br>The page title — "Architizer: Inspiration and Tools for Architects" at 48 characters — contains zero firm-specific language. CallisonRTKL ranks **#2 in Google organic results** for its own name, meaning someone searching directly for CallisonRTKL may land on an Architizer page before reaching CallisonRTKL's own site. That Architizer page's metadata directs all search equity, all click-through framing, and all first-impression copy toward Architizer's brand, not CallisonRTKL's. The meta description at 156 characters is within Google's display window — but again, it speaks to Architizer's value proposition, not CallisonRTKL's project work, fee positioning, or practice areas.<br><br>The alt-text coverage reads 0 missing out of 0 content images — a technically clean score that means nothing, because there are no content images to tag. Zero alt-text failures on zero images is not a clean bill of health; it is evidence that image infrastructure has not been deployed at all on this scraped view of the homepage.<br><br>What you are forfeiting: the #2 organic ranking for your own firm name is driving traffic to a page that introduces you through someone else's editorial lens, with no visual evidence of your built work visible at the infrastructure level the scan could confirm.<br><br>A complimentary Photo-First Strategy Session is the fastest way to map what this costs you before the next firm on that A+List takes the position: [book your session here](https://russellmoorephotography.hbportal.co/schedule/6a3d3469dd6802c989d68acb).
     </div>
   </section>
 
